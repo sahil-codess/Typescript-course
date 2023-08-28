@@ -23,3 +23,14 @@ enum continents {
 
 // usage
 var region = continents.afghaninstan;
+
+// Interfaces
+ interface User {
+    name: string;
+    id: number;
+ }
+
+ const user: User = {
+    name: 'sahilkhan',
+    id: 23,
+ }
