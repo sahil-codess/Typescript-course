@@ -10,3 +10,16 @@ let age: number = 23;
 // Tuple
 type stringAndNumber = [string, number];
 let x: stringAndNumber = ["sahilkhan", 23];
+
+// Enums
+enum continents {
+    North_america,
+    africa,
+    afghaninstan,
+    india,
+    iran,
+    turkey
+}
+
+// usage
+var region = continents.afghaninstan;
